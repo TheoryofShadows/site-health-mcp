@@ -1,0 +1,47 @@
+{
+  "name": "@mcpx-digital/site-health",
+  "version": "0.1.0",
+  "description": "MCP server for polite, permission-based site health checks: HTTP status, broken links, SEO basics, and security headers (defensive/informational only).",
+  "type": "module",
+  "bin": {
+    "site-health-mcp": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "site-health",
+    "seo",
+    "security-headers",
+    "broken-links",
+    "mcpx"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheoryofShadows/site-health-mcp.git"
+  },
+  "homepage": "https://github.com/TheoryofShadows/site-health-mcp#readme",
+  "author": "TheoryofShadows",
+  "bugs": {
+    "url": "https://github.com/TheoryofShadows/site-health-mcp/issues"
+  }
+}
